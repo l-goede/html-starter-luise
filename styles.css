@@ -1,4 +1,38 @@
+nav {
+  background: rgb(255, 255, 255);
+  color: hsla(0, 0%, 0%, 0.8);
+  font-family: arial;
+  font-size: 20px;
+  font-weight: normal;
+}
 body {
   background: rgb(32, 35, 41);
   color: rgb(158, 158, 158);
+  font-family: arial;
+}
+.navbar {
+  color: hsla(0, 0%, 0%, 0.8);
+  text-decoration: none;
+}
+.orangebutton {
+  color: rgb(255, 152, 0);
+  text-decoration: none;
+}
+h1 {
+  color: hsla(0, 0%, 0%, 0.8);
+  background-color: #fff;
+  margin: 5px;
+  padding: 20px;
+}
+h2 {
+  color: #abb2bf;
+}
+p {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  text-st∏
+  color: rgb(255, 255, 255);
 }
