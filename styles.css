@@ -61,19 +61,20 @@ body {
   background: #3c3e44;
   color: #fff;
   display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: auto 1fr;
   border-radius: 1em;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 1em;
 }
 .character img {
   height: 14em;
   width: 13em;
   border-top-left-radius: 1em;
   border-bottom-left-radius: 1em;
+  grid-area: 1/1/4/2;
 }
 .character_info {
   padding: 0.75em;
-  display: grid;
 }
 
 .character_info,
